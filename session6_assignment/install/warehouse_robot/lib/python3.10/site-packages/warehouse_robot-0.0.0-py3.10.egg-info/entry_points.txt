@@ -1,3 +1,4 @@
 [console_scripts]
-
+stock_checker_service_client = warehouse_robot.stock_checker_service_client:main
+stock_checker_service_server = warehouse_robot.stock_checker_service_server:main
 

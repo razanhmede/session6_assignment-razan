@@ -20,6 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'stock_checker_service_server = warehouse_robot.stock_checker_service_server:main',
+            'stock_checker_service_client = warehouse_robot.stock_checker_service_client:main',
+
         ],
     },
 )

@@ -4,3 +4,5 @@ customized_interfaces.egg-info/PKG-INFO
 customized_interfaces.egg-info/SOURCES.txt
 customized_interfaces.egg-info/dependency_links.txt
 customized_interfaces.egg-info/top_level.txt
+customized_interfaces/srv/__init__.py
+customized_interfaces/srv/_check_stock.py
