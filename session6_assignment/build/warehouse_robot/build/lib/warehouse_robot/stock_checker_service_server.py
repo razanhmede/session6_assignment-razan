@@ -1,11 +1,11 @@
 import rclpy
 from rclpy.node import Node 
-from example_interfaces.srv import 
+from customized_interfaces.srv import CheckStock
 
 class StockCheckerServiceServer(Node):
     def __init__(self):
         super().__init__('stock_checker_service_server')
-        self.srv=self.create_service(,'CheckStock',self.check_stock_callback)
+        self.srv=self.create_service(CheckStock,'CheckStock',self.check_stock_callback)
         self.get_logger.info('Stock Checker Service is running....')
         self.stock_levels = {'item1': 10, 'item2': 5, 'item3': 0}
 

@@ -1,15 +1,15 @@
 import rclpy
 from rclpy.node import Node
 import sys
-from examples_interfaces.srv import 
+from customized_interfaces.srv import CheckStock
 
 class StockCheckerServiceClient(Node):
     def __init__(self):
         super().__init__('stock_checker_service_client')
-        self.client=self.create_client(, 'check_stock')
+        self.client=self.create_client(CheckStock, 'check_stock')
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Service not available, waiting again...')
-        self.request = String.Request()
+        self.request = CheckStock.Request()
     def send_request(self, item_name):
         self.request.item_name = item_name
         self.future = self.client.call_async(self.request)

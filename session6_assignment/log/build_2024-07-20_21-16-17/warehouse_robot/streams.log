@@ -1,0 +1,39 @@
+[0.715s] Invoking command in '/home/razanhmede/session6_assignment-razan/session6_assignment/src/warehouse_robot': PYTHONPATH=/home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build install --record /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/install.log --single-version-externally-managed install_data
+[1.020s] running egg_info
+[1.021s] creating ../../build/warehouse_robot/warehouse_robot.egg-info
+[1.021s] writing ../../build/warehouse_robot/warehouse_robot.egg-info/PKG-INFO
+[1.023s] writing dependency_links to ../../build/warehouse_robot/warehouse_robot.egg-info/dependency_links.txt
+[1.023s] writing entry points to ../../build/warehouse_robot/warehouse_robot.egg-info/entry_points.txt
+[1.023s] writing requirements to ../../build/warehouse_robot/warehouse_robot.egg-info/requires.txt
+[1.023s] writing top-level names to ../../build/warehouse_robot/warehouse_robot.egg-info/top_level.txt
+[1.023s] writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[1.023s] reading manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[1.024s] writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[1.025s] running build
+[1.025s] running build_py
+[1.025s] creating /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build
+[1.025s] creating /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib
+[1.026s] creating /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib/warehouse_robot
+[1.026s] copying warehouse_robot/stock_checker_service_client.py -> /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib/warehouse_robot
+[1.026s] copying warehouse_robot/stock_checker_service_server.py -> /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib/warehouse_robot
+[1.026s] copying warehouse_robot/__init__.py -> /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib/warehouse_robot
+[1.026s] running install
+[1.026s] running install_lib
+[1.027s] creating /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+[1.027s] copying /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib/warehouse_robot/stock_checker_service_client.py -> /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+[1.027s] copying /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib/warehouse_robot/stock_checker_service_server.py -> /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+[1.027s] copying /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib/warehouse_robot/__init__.py -> /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+[1.028s] byte-compiling /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/stock_checker_service_client.py to stock_checker_service_client.cpython-310.pyc
+[1.029s] byte-compiling /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/stock_checker_service_server.py to stock_checker_service_server.cpython-310.pyc
+[1.029s] byte-compiling /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/__init__.py to __init__.cpython-310.pyc
+[1.029s] running install_data
+[1.030s] creating /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/share/ament_index
+[1.030s] creating /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/share/ament_index/resource_index
+[1.030s] creating /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/share/ament_index/resource_index/packages
+[1.030s] copying resource/warehouse_robot -> /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/share/ament_index/resource_index/packages
+[1.030s] copying package.xml -> /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/share/warehouse_robot
+[1.030s] running install_egg_info
+[1.031s] Copying ../../build/warehouse_robot/warehouse_robot.egg-info to /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info
+[1.032s] running install_scripts
+[1.058s] writing list of installed files to '/home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/install.log'
+[1.085s] Invoked command in '/home/razanhmede/session6_assignment-razan/session6_assignment/src/warehouse_robot' returned '0': PYTHONPATH=/home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build install --record /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/install.log --single-version-externally-managed install_data
