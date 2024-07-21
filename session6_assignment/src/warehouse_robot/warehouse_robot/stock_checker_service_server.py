@@ -7,7 +7,7 @@ class StockCheckerServiceServer(Node):
         super().__init__('stock_checker_service_server')
         self.srv=self.create_service(CheckStock,'check_stock',self.check_stock_callback)
         self.get_logger().info('Stock Checker Service is running....')
-        self.stock_levels = {'item1': 10, 'item2': 5, 'item3': 0}
+        self.stock_levels = {'item1': 10, 'item2': 5, 'item3': 0, 'item4':50, 'item5':30, 'item6':40}
 
     def check_stock_callback(self,request,response):
         item_name = request.item_name

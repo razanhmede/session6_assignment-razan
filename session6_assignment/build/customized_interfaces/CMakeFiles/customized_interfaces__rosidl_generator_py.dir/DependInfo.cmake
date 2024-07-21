@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/rosidl_generator_py/customized_interfaces/action/_delivery_item_s.c" "CMakeFiles/customized_interfaces__rosidl_generator_py.dir/rosidl_generator_py/customized_interfaces/action/_delivery_item_s.c.o" "gcc" "CMakeFiles/customized_interfaces__rosidl_generator_py.dir/rosidl_generator_py/customized_interfaces/action/_delivery_item_s.c.o.d"
   "/home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/rosidl_generator_py/customized_interfaces/srv/_check_stock_s.c" "CMakeFiles/customized_interfaces__rosidl_generator_py.dir/rosidl_generator_py/customized_interfaces/srv/_check_stock_s.c.o" "gcc" "CMakeFiles/customized_interfaces__rosidl_generator_py.dir/rosidl_generator_py/customized_interfaces/srv/_check_stock_s.c.o.d"
   )
 

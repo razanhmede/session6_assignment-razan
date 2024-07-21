@@ -206,4 +206,9 @@ CMakeFiles/customized_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosid
  /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/rosidl_generator_c/customized_interfaces/srv/detail/check_stock__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/rosidl_generator_c/customized_interfaces/srv/detail/check_stock__functions.h
+ /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/rosidl_generator_c/customized_interfaces/srv/detail/check_stock__functions.h \
+ /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/rosidl_generator_c/customized_interfaces/action/detail/delivery_item__type_support.h \
+ /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/rosidl_generator_c/customized_interfaces/action/detail/delivery_item__struct.h \
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/rosidl_generator_c/customized_interfaces/action/detail/delivery_item__functions.h

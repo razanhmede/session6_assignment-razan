@@ -7,15 +7,15 @@ class StockCheckerServiceClient(Node):
 
     def __init__(self):
         super().__init__('stock_checker_service_client')
-        self.cli = self.create_client(CheckStock, 'check_stock')
-        while not self.cli.wait_for_service(timeout_sec=1.0):
+        self.client = self.create_client(CheckStock, 'check_stock')
+        while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Service not available, waiting again...')
         self.get_logger().info('Service available, sending request...')
 
     def send_request(self, item_name):
         req = CheckStock.Request()
         req.item_name = item_name
-        future = self.cli.call_async(req)
+        future = self.client.call_async(req)
         rclpy.spin_until_future_complete(self, future)
         if future.result() is not None:
             self.get_logger().info(f'Stock level for {item_name}: {future.result().stock_level}')

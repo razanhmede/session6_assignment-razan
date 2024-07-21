@@ -247,8 +247,15 @@ CMakeFiles/customized_interfaces__rosidl_typesupport_introspection_c__pyext.dir/
   rosidl_generator_c/customized_interfaces/srv/detail/check_stock__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/customized_interfaces/srv/detail/check_stock__functions.h
+  rosidl_generator_c/customized_interfaces/srv/detail/check_stock__functions.h \
+  rosidl_generator_c/customized_interfaces/action/detail/delivery_item__type_support.h \
+  rosidl_generator_c/customized_interfaces/action/detail/delivery_item__struct.h \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  rosidl_generator_c/customized_interfaces/action/detail/delivery_item__functions.h
 
+
+/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -299,6 +306,8 @@ rosidl_generator_c/customized_interfaces/srv/detail/check_stock__struct.h:
 /usr/include/python3.10/cpython/ceval.h:
 
 /usr/include/python3.10/genericaliasobject.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
 /usr/include/python3.10/descrobject.h:
 
@@ -478,6 +487,8 @@ rosidl_generator_c/customized_interfaces/srv/detail/check_stock__functions.h:
 
 /usr/include/stdc-predef.h:
 
+rosidl_generator_c/customized_interfaces/action/detail/delivery_item__functions.h:
+
 /usr/include/python3.10/pystrtod.h:
 
 /usr/include/python3.10/cpython/pymem.h:
@@ -614,6 +625,8 @@ rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typ
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
+rosidl_generator_c/customized_interfaces/action/detail/delivery_item__struct.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
@@ -723,6 +736,8 @@ rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typ
 /usr/include/x86_64-linux-gnu/bits/statx.h:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
+
+rosidl_generator_c/customized_interfaces/action/detail/delivery_item__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 

@@ -69,6 +69,11 @@ include CMakeFiles/customized_interfaces.dir/progress.make
 CMakeFiles/customized_interfaces: /home/razanhmede/session6_assignment-razan/session6_assignment/src/customized_interfaces/srv/CheckStock.srv
 CMakeFiles/customized_interfaces: rosidl_cmake/srv/CheckStock_Request.msg
 CMakeFiles/customized_interfaces: rosidl_cmake/srv/CheckStock_Response.msg
+CMakeFiles/customized_interfaces: /home/razanhmede/session6_assignment-razan/session6_assignment/src/customized_interfaces/action/DeliveryItem.action
+CMakeFiles/customized_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/customized_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/customized_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/customized_interfaces: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 
 customized_interfaces: CMakeFiles/customized_interfaces
 customized_interfaces: CMakeFiles/customized_interfaces.dir/build.make

@@ -70,6 +70,10 @@ CMakeFiles/customized_interfaces__cpp: rosidl_generator_cpp/customized_interface
 CMakeFiles/customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/srv/detail/check_stock__builder.hpp
 CMakeFiles/customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/srv/detail/check_stock__struct.hpp
 CMakeFiles/customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/srv/detail/check_stock__traits.hpp
+CMakeFiles/customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/action/delivery_item.hpp
+CMakeFiles/customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__builder.hpp
+CMakeFiles/customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__struct.hpp
+CMakeFiles/customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__traits.hpp
 
 rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +91,14 @@ rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/
 rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: rosidl_adapter/customized_interfaces/srv/CheckStock.idl
+rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: rosidl_adapter/customized_interfaces/action/DeliveryItem.idl
+rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -99,7 +111,23 @@ rosidl_generator_cpp/customized_interfaces/srv/detail/check_stock__struct.hpp: r
 rosidl_generator_cpp/customized_interfaces/srv/detail/check_stock__traits.hpp: rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/customized_interfaces/srv/detail/check_stock__traits.hpp
 
+rosidl_generator_cpp/customized_interfaces/action/delivery_item.hpp: rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/customized_interfaces/action/delivery_item.hpp
+
+rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__builder.hpp: rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__builder.hpp
+
+rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__struct.hpp: rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__struct.hpp
+
+rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__traits.hpp: rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__traits.hpp
+
 customized_interfaces__cpp: CMakeFiles/customized_interfaces__cpp
+customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/action/delivery_item.hpp
+customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__builder.hpp
+customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__struct.hpp
+customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/action/detail/delivery_item__traits.hpp
 customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/srv/check_stock.hpp
 customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/srv/detail/check_stock__builder.hpp
 customized_interfaces__cpp: rosidl_generator_cpp/customized_interfaces/srv/detail/check_stock__struct.hpp

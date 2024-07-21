@@ -22,6 +22,9 @@ setup(
         'console_scripts': [
             'stock_checker_service_server = warehouse_robot.stock_checker_service_server:main',
             'stock_checker_service_client = warehouse_robot.stock_checker_service_client:main',
+            'Item_delivery_action_server =warehouse_robot.Item_delivery_action_server:main',
+            'Item_delivery_action_client =warehouse_robot.Item_delivery_action_client:main',
+
 
         ],
     },

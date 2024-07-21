@@ -1,3 +1,5 @@
+action/DeliveryItem.action
+action/DeliveryItem.idl
 srv/CheckStock.idl
 srv/CheckStock.srv
 srv/CheckStock_Request.msg

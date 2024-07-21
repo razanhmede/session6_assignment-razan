@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/warehouse_robot/warehouse_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/warehouse_robot/warehouse_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/warehouse_robot/warehouse_robot.egg-info/entry_points.txt
+writing requirements to ../../build/warehouse_robot/warehouse_robot.egg-info/requires.txt
+writing top-level names to ../../build/warehouse_robot/warehouse_robot.egg-info/top_level.txt
+reading manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying warehouse_robot/Item_delivery_action_client.py -> /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib/warehouse_robot
+copying warehouse_robot/Item_delivery_action_server.py -> /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib/warehouse_robot
+running install
+running install_lib
+copying /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib/warehouse_robot/Item_delivery_action_client.py -> /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+copying /home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/build/lib/warehouse_robot/Item_delivery_action_server.py -> /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+byte-compiling /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/Item_delivery_action_client.py to Item_delivery_action_client.cpython-310.pyc
+byte-compiling /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/Item_delivery_action_server.py to Item_delivery_action_server.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/warehouse_robot/warehouse_robot.egg-info to /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing Item_delivery_action_client script to /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/warehouse_robot
+Installing Item_delivery_action_server script to /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/warehouse_robot
+Installing stock_checker_service_client script to /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/warehouse_robot
+Installing stock_checker_service_server script to /home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot/lib/warehouse_robot
+writing list of installed files to '/home/razanhmede/session6_assignment-razan/session6_assignment/build/warehouse_robot/install.log'

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/customized_interfaces__rosidl_generator_py.dir/rosidl_generator_py/customized_interfaces/action/_delivery_item_s.c.o"
+  "CMakeFiles/customized_interfaces__rosidl_generator_py.dir/rosidl_generator_py/customized_interfaces/action/_delivery_item_s.c.o.d"
   "CMakeFiles/customized_interfaces__rosidl_generator_py.dir/rosidl_generator_py/customized_interfaces/srv/_check_stock_s.c.o"
   "CMakeFiles/customized_interfaces__rosidl_generator_py.dir/rosidl_generator_py/customized_interfaces/srv/_check_stock_s.c.o.d"
   "rosidl_generator_py/customized_interfaces/libcustomized_interfaces__rosidl_generator_py.pdb"

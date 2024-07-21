@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/customized_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_interfaces/action/detail/dds_fastrtps/delivery_item__type_support.cpp.o"
+  "CMakeFiles/customized_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_interfaces/action/detail/dds_fastrtps/delivery_item__type_support.cpp.o.d"
   "CMakeFiles/customized_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_interfaces/srv/detail/dds_fastrtps/check_stock__type_support.cpp.o"
   "CMakeFiles/customized_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_interfaces/srv/detail/dds_fastrtps/check_stock__type_support.cpp.o.d"
   "libcustomized_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "libcustomized_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/customized_interfaces/action/detail/dds_fastrtps/delivery_item__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/customized_interfaces/action/detail/delivery_item__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/customized_interfaces/srv/detail/check_stock__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/customized_interfaces/srv/detail/dds_fastrtps/check_stock__type_support.cpp"
 )

@@ -1,0 +1,272 @@
+[0.035s] Invoking command in '/home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces -- -j4 -l4
+[0.317s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.894s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.937s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.969s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.005s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.617s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.663s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.663s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.663s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.722s] -- Configuring done
+[2.867s] -- Generating done
+[2.872s] -- Build files have been written to: /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces
+[2.898s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.912s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.921s] [  5%] Built target ament_cmake_python_copy_customized_interfaces
+[3.180s] running egg_info
+[3.181s] writing customized_interfaces.egg-info/PKG-INFO
+[3.182s] writing dependency_links to customized_interfaces.egg-info/dependency_links.txt
+[3.182s] writing top-level names to customized_interfaces.egg-info/top_level.txt
+[3.184s] reading manifest file 'customized_interfaces.egg-info/SOURCES.txt'
+[3.185s] writing manifest file 'customized_interfaces.egg-info/SOURCES.txt'
+[3.220s] [  5%] Built target ament_cmake_python_build_customized_interfaces_egg
+[3.514s] [35m[1mConsolidate compiler generated dependencies of target customized_interfaces__rosidl_generator_c[0m
+[3.527s] [  7%] [32mBuilding C object CMakeFiles/customized_interfaces__rosidl_generator_c.dir/rosidl_generator_c/customized_interfaces/srv/detail/check_stock__functions.c.o[0m
+[3.549s] [ 10%] [32mBuilding C object CMakeFiles/customized_interfaces__rosidl_generator_c.dir/rosidl_generator_c/customized_interfaces/action/detail/delivery_item__functions.c.o[0m
+[3.557s] [ 10%] Built target customized_interfaces__cpp
+[3.573s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.578s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.966s] [35m[1mConsolidate compiler generated dependencies of target customized_interfaces__rosidl_typesupport_cpp[0m
+[3.984s] [ 17%] [32mBuilding CXX object CMakeFiles/customized_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customized_interfaces/srv/check_stock__type_support.cpp.o[0m
+[4.201s] [35m[1mConsolidate compiler generated dependencies of target customized_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[4.224s] [ 20%] [32mBuilding CXX object CMakeFiles/customized_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_interfaces/srv/detail/dds_fastrtps/check_stock__type_support.cpp.o[0m
+[4.560s] [ 23%] [32m[1mLinking C shared library libcustomized_interfaces__rosidl_generator_c.so[0m
+[4.567s] [ 25%] [32mBuilding CXX object CMakeFiles/customized_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_interfaces/action/detail/dds_fastrtps/delivery_item__type_support.cpp.o[0m
+[4.910s] [ 25%] Built target customized_interfaces__rosidl_generator_c
+[4.942s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.522s] [35m[1mConsolidate compiler generated dependencies of target customized_interfaces__rosidl_typesupport_introspection_cpp[0m
+[5.539s] [ 30%] [32mBuilding CXX object CMakeFiles/customized_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customized_interfaces/srv/detail/check_stock__type_support.cpp.o[0m
+[6.195s] [ 33%] [32mBuilding CXX object CMakeFiles/customized_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customized_interfaces/action/delivery_item__type_support.cpp.o[0m
+[6.263s] [ 35%] [32mBuilding CXX object CMakeFiles/customized_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customized_interfaces/action/detail/delivery_item__type_support.cpp.o[0m
+[6.436s] [ 38%] [32m[1mLinking CXX shared library libcustomized_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.605s] [ 38%] Built target customized_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.617s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.619s] [ 43%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.744s] [ 46%] [32m[1mLinking CXX shared library libcustomized_interfaces__rosidl_typesupport_cpp.so[0m
+[6.797s] [ 46%] Built target customized_interfaces__rosidl_typesupport_cpp
+[6.810s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.000s] [ 51%] [32m[1mLinking CXX shared library libcustomized_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.106s] [ 51%] Built target customized_interfaces__rosidl_typesupport_introspection_cpp
+[7.138s] [35m[1mConsolidate compiler generated dependencies of target customized_interfaces__rosidl_typesupport_introspection_c[0m
+[7.150s] [ 56%] [32mBuilding C object CMakeFiles/customized_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customized_interfaces/srv/detail/check_stock__type_support.c.o[0m
+[7.151s] [ 56%] [32mBuilding C object CMakeFiles/customized_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customized_interfaces/action/detail/delivery_item__type_support.c.o[0m
+[7.212s] [ 58%] [32m[1mLinking C shared library libcustomized_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.213s] [35m[1mConsolidate compiler generated dependencies of target customized_interfaces__rosidl_typesupport_fastrtps_c[0m
+[7.223s] [35m[1mConsolidate compiler generated dependencies of target customized_interfaces__rosidl_typesupport_c[0m
+[7.236s] [ 64%] [32mBuilding CXX object CMakeFiles/customized_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_interfaces/srv/check_stock__type_support.cpp.o[0m
+[7.236s] [ 64%] [32mBuilding CXX object CMakeFiles/customized_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customized_interfaces/srv/detail/check_stock__type_support_c.cpp.o[0m
+[7.239s] [ 66%] [32mBuilding CXX object CMakeFiles/customized_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customized_interfaces/action/detail/delivery_item__type_support_c.cpp.o[0m
+[7.246s] [ 66%] Built target customized_interfaces__rosidl_typesupport_introspection_c
+[7.256s] [ 69%] [32mBuilding CXX object CMakeFiles/customized_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_interfaces/action/delivery_item__type_support.cpp.o[0m
+[7.317s] [ 71%] [32m[1mLinking CXX shared library libcustomized_interfaces__rosidl_typesupport_c.so[0m
+[7.392s] [ 71%] Built target customized_interfaces__rosidl_typesupport_c
+[7.684s] [ 74%] [32m[1mLinking CXX shared library libcustomized_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.780s] [ 74%] Built target customized_interfaces__rosidl_typesupport_fastrtps_c
+[7.811s] [ 74%] Built target customized_interfaces
+[7.832s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.764s] [ 76%] Built target customized_interfaces__py
+[8.777s] [35m[1mConsolidate compiler generated dependencies of target customized_interfaces__rosidl_generator_py[0m
+[8.794s] [ 82%] [32mBuilding C object CMakeFiles/customized_interfaces__rosidl_generator_py.dir/rosidl_generator_py/customized_interfaces/action/_delivery_item_s.c.o[0m
+[8.794s] [ 82%] [32mBuilding C object CMakeFiles/customized_interfaces__rosidl_generator_py.dir/rosidl_generator_py/customized_interfaces/srv/_check_stock_s.c.o[0m
+[9.393s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/customized_interfaces/libcustomized_interfaces__rosidl_generator_py.so[0m
+[9.450s] [ 84%] Built target customized_interfaces__rosidl_generator_py
+[9.461s] [35m[1mConsolidate compiler generated dependencies of target customized_interfaces__rosidl_typesupport_c__pyext[0m
+[9.461s] [35m[1mConsolidate compiler generated dependencies of target customized_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[9.462s] [35m[1mConsolidate compiler generated dependencies of target customized_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.474s] [ 89%] [32mBuilding C object CMakeFiles/customized_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.474s] [ 89%] [32mBuilding C object CMakeFiles/customized_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.478s] [ 92%] [32mBuilding C object CMakeFiles/customized_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.606s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/customized_interfaces/customized_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.613s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/customized_interfaces/customized_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.617s] [100%] [32m[1mLinking C shared library rosidl_generator_py/customized_interfaces/customized_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.650s] [100%] Built target customized_interfaces__rosidl_typesupport_c__pyext
+[9.655s] [100%] Built target customized_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.668s] [100%] Built target customized_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.681s] Invoked command in '/home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --build /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces -- -j4 -l4
+[9.827s] Invoking command in '/home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --install /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces
+[9.839s] -- Install configuration: ""
+[9.839s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/ament_index/resource_index/rosidl_interfaces/customized_interfaces
+[9.839s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces
+[9.839s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action
+[9.840s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/delivery_item.h
+[9.840s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail
+[9.841s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__type_support.h
+[9.841s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__functions.h
+[9.841s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__functions.c
+[9.841s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__struct.h
+[9.841s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/msg
+[9.841s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.842s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv
+[9.842s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/check_stock.h
+[9.842s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail
+[9.842s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__functions.h
+[9.842s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__struct.h
+[9.842s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__functions.c
+[9.842s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__type_support.h
+[9.842s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/environment/library_path.sh
+[9.843s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/environment/library_path.dsv
+[9.843s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_generator_c.so
+[9.843s] -- Set runtime path of "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_generator_c.so" to ""
+[9.843s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces
+[9.843s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action
+[9.843s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail
+[9.844s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__rosidl_typesupport_fastrtps_c.h
+[9.844s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/msg
+[9.844s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.844s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv
+[9.844s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail
+[9.844s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__rosidl_typesupport_fastrtps_c.h
+[9.845s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.845s] -- Set runtime path of "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.845s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces
+[9.845s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action
+[9.845s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail
+[9.845s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__rosidl_typesupport_introspection_c.h
+[9.846s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__type_support.c
+[9.846s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/msg
+[9.846s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.846s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv
+[9.846s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail
+[9.847s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_c.h
+[9.847s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__type_support.c
+[9.847s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_introspection_c.so
+[9.847s] -- Set runtime path of "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.847s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_c.so
+[9.847s] -- Set runtime path of "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_c.so" to ""
+[9.847s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces
+[9.847s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action
+[9.848s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/delivery_item.hpp
+[9.848s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail
+[9.848s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__struct.hpp
+[9.848s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__traits.hpp
+[9.848s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__builder.hpp
+[9.848s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv
+[9.848s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail
+[9.848s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__traits.hpp
+[9.848s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__struct.hpp
+[9.849s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__builder.hpp
+[9.849s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/check_stock.hpp
+[9.849s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces
+[9.849s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action
+[9.849s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail
+[9.849s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/dds_fastrtps
+[9.850s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__rosidl_typesupport_fastrtps_cpp.hpp
+[9.850s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/msg
+[9.850s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.850s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv
+[9.850s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail
+[9.850s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/dds_fastrtps
+[9.850s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__rosidl_typesupport_fastrtps_cpp.hpp
+[9.851s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.851s] -- Set runtime path of "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.851s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces
+[9.851s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action
+[9.851s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail
+[9.851s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__rosidl_typesupport_introspection_cpp.hpp
+[9.851s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/action/detail/delivery_item__type_support.cpp
+[9.851s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv
+[9.851s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail
+[9.851s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__type_support.cpp
+[9.852s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/include/customized_interfaces/customized_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp
+[9.852s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.852s] -- Set runtime path of "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.852s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_cpp.so
+[9.852s] -- Set runtime path of "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.852s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/environment/pythonpath.sh
+[9.852s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/environment/pythonpath.dsv
+[9.852s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces-0.0.0-py3.10.egg-info
+[9.852s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[9.852s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.852s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[9.852s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.853s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/action
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/action/_delivery_item.py
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/action/_delivery_item_s.c
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/action/__init__.py
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/customized_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_c.c
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/customized_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/customized_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/__init__.py
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/libcustomized_interfaces__rosidl_generator_py.so
+[9.853s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/srv
+[9.853s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/srv/_check_stock.py
+[9.854s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/srv/__init__.py
+[9.854s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/srv/_check_stock_s.c
+[9.895s] Listing '/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces'...
+[9.895s] Compiling '/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/__init__.py'...
+[9.895s] Listing '/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/action'...
+[9.895s] Compiling '/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/action/__init__.py'...
+[9.895s] Compiling '/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/action/_delivery_item.py'...
+[9.895s] Listing '/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/srv'...
+[9.895s] Compiling '/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/srv/__init__.py'...
+[9.895s] Compiling '/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/srv/_check_stock.py'...
+[9.901s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/customized_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.901s] -- Set runtime path of "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/customized_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.902s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/customized_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.902s] -- Set runtime path of "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/customized_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.902s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/customized_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.905s] -- Set runtime path of "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/local/lib/python3.10/dist-packages/customized_interfaces/customized_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.905s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_generator_py.so
+[9.906s] -- Set runtime path of "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/lib/libcustomized_interfaces__rosidl_generator_py.so" to ""
+[9.906s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/srv/CheckStock.idl
+[9.907s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/action/DeliveryItem.idl
+[9.907s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/srv/CheckStock.srv
+[9.907s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/srv/CheckStock_Request.msg
+[9.907s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/srv/CheckStock_Response.msg
+[9.907s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/action/DeliveryItem.action
+[9.907s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/ament_index/resource_index/package_run_dependencies/customized_interfaces
+[9.907s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/ament_index/resource_index/parent_prefix_path/customized_interfaces
+[9.908s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/environment/ament_prefix_path.sh
+[9.908s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/environment/ament_prefix_path.dsv
+[9.908s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/environment/path.sh
+[9.908s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/environment/path.dsv
+[9.908s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/local_setup.bash
+[9.908s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/local_setup.sh
+[9.908s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/local_setup.zsh
+[9.909s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/local_setup.dsv
+[9.909s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/package.dsv
+[9.909s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/ament_index/resource_index/packages/customized_interfaces
+[9.909s] -- Old export file "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[9.909s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_generator_cExport.cmake
+[9.909s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.909s] -- Old export file "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[9.909s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.910s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.910s] -- Old export file "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[9.910s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.910s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.910s] -- Old export file "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[9.910s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_cExport.cmake
+[9.910s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.911s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_generator_cppExport.cmake
+[9.911s] -- Old export file "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[9.911s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.911s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.911s] -- Old export file "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[9.911s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.912s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.912s] -- Old export file "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[9.912s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_cppExport.cmake
+[9.912s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.912s] -- Old export file "/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_generator_pyExport-noconfig.cmake].
+[9.912s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_generator_pyExport.cmake
+[9.913s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/export_customized_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.913s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.913s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.913s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.913s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.913s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.914s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.914s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.914s] -- Installing: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfacesConfig.cmake
+[9.914s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/cmake/customized_interfacesConfig-version.cmake
+[9.914s] -- Up-to-date: /home/razanhmede/session6_assignment-razan/session6_assignment/install/customized_interfaces/share/customized_interfaces/package.xml
+[9.916s] Invoked command in '/home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/razanhmede/session6_assignment-razan/session6_assignment/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --install /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces

@@ -70,8 +70,11 @@ customized_interfaces__py/CMakeFiles/customized_interfaces__py: rosidl_generator
 customized_interfaces__py/CMakeFiles/customized_interfaces__py: rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 customized_interfaces__py/CMakeFiles/customized_interfaces__py: rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_c.c
 customized_interfaces__py/CMakeFiles/customized_interfaces__py: rosidl_generator_py/customized_interfaces/srv/_check_stock.py
+customized_interfaces__py/CMakeFiles/customized_interfaces__py: rosidl_generator_py/customized_interfaces/action/_delivery_item.py
 customized_interfaces__py/CMakeFiles/customized_interfaces__py: rosidl_generator_py/customized_interfaces/srv/__init__.py
+customized_interfaces__py/CMakeFiles/customized_interfaces__py: rosidl_generator_py/customized_interfaces/action/__init__.py
 customized_interfaces__py/CMakeFiles/customized_interfaces__py: rosidl_generator_py/customized_interfaces/srv/_check_stock_s.c
+customized_interfaces__py/CMakeFiles/customized_interfaces__py: rosidl_generator_py/customized_interfaces/action/_delivery_item_s.c
 
 rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,14 @@ rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typ
 rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/customized_interfaces/srv/CheckStock.idl
+rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/customized_interfaces/action/DeliveryItem.idl
+rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/customized_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/razanhmede/session6_assignment-razan/session6_assignment/build/customized_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,16 +110,28 @@ rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typ
 rosidl_generator_py/customized_interfaces/srv/_check_stock.py: rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/customized_interfaces/srv/_check_stock.py
 
+rosidl_generator_py/customized_interfaces/action/_delivery_item.py: rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/customized_interfaces/action/_delivery_item.py
+
 rosidl_generator_py/customized_interfaces/srv/__init__.py: rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/customized_interfaces/srv/__init__.py
 
+rosidl_generator_py/customized_interfaces/action/__init__.py: rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/customized_interfaces/action/__init__.py
+
 rosidl_generator_py/customized_interfaces/srv/_check_stock_s.c: rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/customized_interfaces/srv/_check_stock_s.c
+
+rosidl_generator_py/customized_interfaces/action/_delivery_item_s.c: rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/customized_interfaces/action/_delivery_item_s.c
 
 customized_interfaces__py: customized_interfaces__py/CMakeFiles/customized_interfaces__py
 customized_interfaces__py: rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_c.c
 customized_interfaces__py: rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 customized_interfaces__py: rosidl_generator_py/customized_interfaces/_customized_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+customized_interfaces__py: rosidl_generator_py/customized_interfaces/action/__init__.py
+customized_interfaces__py: rosidl_generator_py/customized_interfaces/action/_delivery_item.py
+customized_interfaces__py: rosidl_generator_py/customized_interfaces/action/_delivery_item_s.c
 customized_interfaces__py: rosidl_generator_py/customized_interfaces/srv/__init__.py
 customized_interfaces__py: rosidl_generator_py/customized_interfaces/srv/_check_stock.py
 customized_interfaces__py: rosidl_generator_py/customized_interfaces/srv/_check_stock_s.c

@@ -1,8 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/customized_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_interfaces/action/delivery_item__type_support.cpp.o"
+  "CMakeFiles/customized_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_interfaces/action/delivery_item__type_support.cpp.o.d"
   "CMakeFiles/customized_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_interfaces/srv/check_stock__type_support.cpp.o"
   "CMakeFiles/customized_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_interfaces/srv/check_stock__type_support.cpp.o.d"
   "libcustomized_interfaces__rosidl_typesupport_c.pdb"
   "libcustomized_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/customized_interfaces/action/delivery_item__type_support.cpp"
   "rosidl_typesupport_c/customized_interfaces/srv/check_stock__type_support.cpp"
 )
 
