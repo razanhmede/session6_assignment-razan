@@ -42,7 +42,9 @@ int32 stock_level
 ## Prerequisites
 
 ROS 2 Foxy 
+
 Python 3.0+
+
 Matplotlib
 
 ## Installation:
