@@ -22,6 +22,7 @@ This project aims at implemeting a warehouse robot system using ROS2.The robot c
 
 ### Item Delivery Action Client
 -Implement a client node that sends delivery requests to the action server.
+
 -Handle the delivery feedback and result
 
 ### Stock Checker Service Server
@@ -35,6 +36,7 @@ int32 stock_level
 
 ### Stock Checker Service Client
 -Implement a client node that sends stock check requests to the service server.
+
 -Handle the stock level response
 
 ## Prerequisites
