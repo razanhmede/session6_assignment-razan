@@ -7,7 +7,7 @@ import time
 class ItemDeliveryActionServer(Node):
 
     def __init__(self):
-        super().__init__('item_delivery_action_server')
+        super().__init__('Item_delivery_action_server')
     #should handle execution,goal,and cancelation
         self._action_server = ActionServer(self,DeliveryItem,'delivery_item',self.execute_callback,goal_callback=self.goal_callback,cancel_callback=self.cancel_callback,)
     #receives the goal request from the client and accepts it    
@@ -20,10 +20,11 @@ class ItemDeliveryActionServer(Node):
         return rclpy.action.CancelResponse.ACCEPT
     #executing the goal 
     def execute_callback(self, goal_handle):
-        self.get_logger().info('Executing goal...')
+        self.get_logger().info(f'Executing goal for item: {goal_handle.request.item_name}...')
+        item_name = goal_handle.request.item_name
     #giving feedback messages to the client during delivery
         feedback_msg = DeliveryItem.Feedback()
-        feedback_msg.status = 'Delivering item'
+        feedback_msg.status = f'Delivering item: {item_name}'
     #handling the delivery process of the item by publishing a feedback message in each iteration
     #loop runs 13 times for testing purposes 
         for i in range(1, 14):
@@ -35,7 +36,7 @@ class ItemDeliveryActionServer(Node):
     #handling the result with a true bool message and a string message 
         result = DeliveryItem.Result()
         result.success = True
-        result.message = 'Item delivered successfully!'
+        result.message = f'Item {item_name} delivered successfully!'
 
         return result
 

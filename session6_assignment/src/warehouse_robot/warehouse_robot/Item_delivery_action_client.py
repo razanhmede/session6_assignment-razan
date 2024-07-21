@@ -6,7 +6,7 @@ import sys
 class ItemDeliveryActionClient(Node):
 
     def __init__(self):
-        super().__init__('item_delivery_action_client')
+        super().__init__('Item_delivery_action_client')
         self._action_client = ActionClient(self, DeliveryItem, 'delivery_item')
     #sending the goal to the server with item name and quantity to deliver 
     def send_goal(self, item_name, quantity):
