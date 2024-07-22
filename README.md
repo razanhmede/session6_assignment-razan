@@ -8,6 +8,7 @@ This project aims at implemeting a warehouse robot system using ROS2.The robot c
 
 ### Item Delivery Action Server:
 -Implement an action server that handles item delivery requests.
+
 -Simulate the delivery process and provide feedback on the delivery status.
 #### Action name:
  DeliverItem
@@ -20,6 +21,7 @@ This project aims at implemeting a warehouse robot system using ROS2.The robot c
 
 ### Item Delivery Action Client
 -Implement a client node that sends delivery requests to the action server.
+
 -Handle the delivery feedback and result
 
 ### Stock Checker Service Server
@@ -33,12 +35,15 @@ int32 stock_level
 
 ### Stock Checker Service Client
 -Implement a client node that sends stock check requests to the service server.
+
 -Handle the stock level response
 
 ## Prerequisites
 
 ROS 2 Foxy 
+
 Python 3.0+
+
 Matplotlib
 
 ## Installation:
