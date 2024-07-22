@@ -16,7 +16,7 @@ def generate_launch_description():
             executable='stock_checker_service_client',
             name='stock_checker_service_client',
             output='screen',
-            arguments=['item1']
+            arguments=['item1', 'item2', 'item3', 'item4', 'item5', 'item6'] 
         ),
         Node(
             package='warehouse_robot',
@@ -32,3 +32,5 @@ def generate_launch_description():
             arguments=['item1', '5']
         )
     ])
+
+
